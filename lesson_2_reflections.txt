@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+
+All the files in the directory are treated as a combined entity. The changes in each of those files are then tracked in a .git metadata file. The files are tracked henceforth for any changes made.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+
+It is the intermediate area between a working directory and the repository. The working directory is the place where all the files are initially created and saved.the staging then gives the flexibility of committing 
+only those files which are required in a single commit to make it a logical chunk. The reposirtory is the place where the history astarts to get accrued at every commit. Unless a file goes to repository its commit history is not tracked.
