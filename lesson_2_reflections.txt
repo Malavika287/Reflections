@@ -1,11 +1,16 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+A. All the files in the directory are treated as a combined entity. The changes in each of those files are then tracked in a .git metadata file. The files are tracked henceforth for any changes made.
 
 
-All the files in the directory are treated as a combined entity. The changes in each of those files are then tracked in a .git metadata file. The files are tracked henceforth for any changes made.
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-
-It is the intermediate area between a working directory and the repository. The working directory is the place where all the files are initially created and saved.the staging then gives the flexibility of committing 
+A. It is the intermediate area between a working directory and the repository. The working directory is the place where all the files are initially created and saved.the staging then gives the flexibility of committing 
 only those files which are required in a single commit to make it a logical chunk. The reposirtory is the place where the history astarts to get accrued at every commit. Unless a file goes to repository its commit history is not tracked.
+
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+A. We can move to the staging area only those files that we intend to save in a single logical change. Once that has been committed the rest of the files could then be used to make the next logical change. 
+Only the files which are effected by a local change will be staged every time and committed. This provides an extra level of shelf to store files before committing. 	
+
