@@ -14,3 +14,10 @@ Q. How can you use the staging area to make sure you have one commit per logical
 A. We can move to the staging area only those files that we intend to save in a single logical change. Once that has been committed the rest of the files could then be used to make the next logical change. 
 Only the files which are effected by a local change will be staged every time and committed. This provides an extra level of shelf to store files before committing. 	
 
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. When we want to create two mutually exclusive pieces of the same software bearing dfferent features. For eg : When we have a game for which we want to have two different versions, one easy and one difficult.
+When we have a customer who maintains multiple accounts at the same bank.
+
+
