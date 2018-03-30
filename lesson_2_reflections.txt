@@ -20,4 +20,7 @@ Q. What are some situations when branches would be helpful in keeping your histo
 A. When we want to create two mutually exclusive pieces of the same software bearing dfferent features. For eg : When we have a game for which we want to have two different versions, one easy and one difficult.
 When we have a customer who maintains multiple accounts at the same bank.
 
+Q. How do the diagrams help you visualize the branch structure?
 
+A. The diagrams can help us view the actual flow in which each of these commits has been done. This lets us appropriately check the branch we are in and the commit that we are looking at. 
+A visual representation of the flow of commits lets us understand the workflow much easily.
