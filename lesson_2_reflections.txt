@@ -30,3 +30,9 @@ Q. What is the result of merging two branches together? Why do we represent it i
 
 A. When the two branches are merged together, the code is merged based on the previous common state of the files. When this is represented in a digram , one can easily understand 
 the state when the branches were merged.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. The pros of Git's automatic merging is that it saves a lot of time and effort. The cons of it are there can be some unwanted additions done in a branch which when merged bring it all into the 
+master. The pros of manually merging is that it allows the flexibility to keep the changes that the architect is willing to keep. The cons of manually merging thee files is that it leads to a huge 
+spending in terms of time and effort.
