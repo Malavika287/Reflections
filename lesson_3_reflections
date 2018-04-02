@@ -11,6 +11,8 @@ Branches are used within a local repository when separate parts of the same code
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 A. Having a local copy of the last known state of the remote helps us in understanding the state from which local changes started. It also gives a reference to merge the local changes with the remote changes made by other contributors.
 
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A. We can use common folders and send mails to the team requesting for review if the team doesn't use Github. With Github, the process is much easier when the reviewers can be automatically set.
 
 
 
