@@ -14,5 +14,10 @@ A. Having a local copy of the last known state of the remote helps us in underst
 Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A. We can use common folders and send mails to the team requesting for review if the team doesn't use Github. With Github, the process is much easier when the reviewers can be automatically set.
 
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A. When different contributors are working towards the same goal but different parts of it, then making changes to each branch individually helps. As and when a contributor is done with
+making changes and getting it reviewed, can then merge his/her changes into the master. This way all the individual contributions are verified as well as integrated.
+
+
 
 
